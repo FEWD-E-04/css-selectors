@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+
+/* Descendant */
+li em {
+    color: red;
+}
+
+/* parent-child */
+ul > li {
+    color: green;
+    background-color: #eee;
+}
+
+/* adjacent sibling*/
+
+h1 + p {
+    color: brown;
+}
+
+/* general sibling  */
+
+h1 ~ ol {
+    color: purple;
+}
+
+/* pseudo-class */
+
+a:hover {
+    background-color: white;
+}
+
+a:active {
+    color: orange;
+}
+
+/* pseudo-element */
+
+a::before {
+    content: "Content before.";
+    padding: 12px;
+}
+
+a::after {
+    content: "Content after.";
+    padding: 12px;
+}
+
+p::first-letter {
+    color: blue;
+    background-color: white;
+    font-size: 44px;
+}
