@@ -1,34 +1,40 @@
+/* Uncomment the CSS declaration blocks to see how the content looks like*/
+
 /* element */
 
-body {
+/* body {
     background-color: black;
     color: white;
     font-size: 24px;
-}
+} */
 
 /* grouping */
-h1, h2, li {
+
+/* h1, h2, li {
     color: green;
-}
+} */
 
 /* class */
-.special {
+
+/* .special {
     color: #FF6600;
-}
+} */
 
 /* id */
-#ordered-list {
+
+/* #ordered-list {
     font-style: italic;
-}
+} */
 
 /* combining */
-h1.special {
+
+/* h1.special {
     color: #FF6688;
-}
+} */
 
 /* attribute */
 
-a[href="index.html"] {
+/* a[href="index.html"] {
     color: rgba(252, 186, 3, 0.5);
     padding: 16px;
-}
+} */

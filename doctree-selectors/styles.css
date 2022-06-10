@@ -1,3 +1,5 @@
+/* Uncomment the CSS declaration blocks to see how the content looks like*/
+
 body {
     background-color: black;
     color: white;
@@ -5,52 +7,54 @@ body {
 }
 
 /* Descendant */
-li em {
+
+/* li em {
     color: red;
-}
+} */
 
 /* parent-child */
-ul > li {
+
+/* ul > li {
     color: green;
     background-color: #eee;
-}
+} */
 
 /* adjacent sibling*/
 
-h1 + p {
+/* h1 + p {
     color: brown;
-}
+} */
 
 /* general sibling  */
 
-h1 ~ ol {
+/* h1 ~ ol {
     color: purple;
-}
+} */
 
 /* pseudo-class */
 
-a:hover {
+/* a:hover {
     background-color: white;
-}
+} */
 
-a:active {
+/* a:active {
     color: orange;
-}
+} */
 
 /* pseudo-element */
 
-a::before {
+/* a::before {
     content: "Content before.";
     padding: 12px;
-}
+} */
 
-a::after {
+/* a::after {
     content: "Content after.";
     padding: 12px;
-}
+} */
 
-p::first-letter {
+/* p::first-letter {
     color: blue;
     background-color: white;
     font-size: 44px;
-}
+} */
